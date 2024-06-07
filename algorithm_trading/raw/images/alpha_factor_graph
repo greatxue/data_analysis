@@ -1,0 +1,12 @@
+digraph program {
+node [style=filled]
+0 [label="div", fillcolor="#136ed4"] ;
+1 [label="alpha_w_005", fillcolor="#60a6f6"] ;
+2 [label="sqrt", fillcolor="#136ed4"] ;
+3 [label="sqrt", fillcolor="#136ed4"] ;
+4 [label="alpha32", fillcolor="#60a6f6"] ;
+3 -> 4 ;
+2 -> 3 ;
+0 -> 2 ;
+0 -> 1 ;
+}
